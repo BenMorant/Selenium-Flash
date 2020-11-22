@@ -7,4 +7,24 @@ Elle n'a pas vocation à fonctionner.
 
 Malgré tout le soin apporté à cette reconstitution partielle et tronquée, certaines erreurs (inconsistences, illogismes...) peuvent subsister dans le code.
 
-Merci à J. Q. et G. N. qui se reconnaîtront.
+Merci à J. Q. et G. N. qui se reconnaîtront, ainsi qu'à A.d.M. pour l'idée de la branche live-coding.
+
+**Il existe une branche "live-coding"** qui permet, en naviguant du commit le plus récent au plus ancien de voir les différentes étapes d'une de mes contributions au projet.
+
+Pour se déplacer sur cette branche:
+
+`git checkout live-coding`
+
+La commande suivante donne la liste des étapes.
+
+`git log`
+
+Les différentes étapes sont :
+c7f78e32 - 1) préparatifs et mise en place d'un test de connexion à Superdup
+bb9b2fd3 - 2) recherche de l'archive dans Superdup et téléchargement
+90496589 - 3) dézippage et parsage du XML
+e2ccc237 - 4) intégration des tests Superdup à un test de publication d'un contenu éditorial
+
+Par exemple, pour se déplacer vers l'étape 4) il faut faire:
+
+git checkout e2ccc237
