@@ -10,5 +10,5 @@ for ((c = $DEBUT; c <= $FIN; c++)); do
   portdock=$((INITVAL + c))
   portvnc=$((VNCINIT + c))
 
-  docker run -d -p "$portdock":3333 -p "$portvnc":4900 -v /tmp:/home/seluser/test --name chromenav-"$c" --rm fake-selenium-flash/chromenav
+  docker run -d -p "$portdock":3333 -p "$portvnc":4900 --name chromenav-"$c" --rm fake-selenium-flash/chromenav
 done

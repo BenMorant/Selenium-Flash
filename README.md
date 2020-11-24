@@ -20,6 +20,7 @@ La commande suivante donne la liste des étapes.
 `git log`
 
 Prochaine(s) étape(s): 
+b9db3f00 - 3) dézippage et parsage du XML
 88ae74f5 - 4) intégration des tests Superdup à un test de publication d'un contenu éditorial
 
 Par exemple, pour se déplacer vers l'étape 4) il faut faire:
